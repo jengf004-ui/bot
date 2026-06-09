@@ -1,7 +1,7 @@
 const http = require('http');
 
 const REPLIT_URL = 'https://a3c8d22b-9d27-40ee-b98e-28e131a76f65-00-29wwch4dmlims.pike.replit.dev/'; // URL เว็บ Replit ของคุณ
-const RENDER_URL = 'https://your-bot-name.onrender.com'; // เดี๋ยวเอา URL ที่ได้จาก Render มาใส่ทีหลัง
+const RENDER_URL = 'https://bot-85jn.onrender.com'; // เดี๋ยวเอา URL ที่ได้จาก Render มาใส่ทีหลัง
 
 // 1. สร้าง Server หลอกไว้บน Render เพื่อให้เป็น Web Service ได้สำเร็จ
 const server = http.createServer((req, res) => {
